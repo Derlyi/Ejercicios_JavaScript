@@ -106,7 +106,7 @@ alert("La cantidad a pagar es: " + pago.toFixed(2) + " pesos."); */
 var horas = parseInt(prompt("Ingrese el número de horas trabajadas:"));
 
 var salario;
-    if (horasTrabajadas <= 40) {
+    if (horas <= 40) {
   salario = horas * 16000;
 } else {
   salario = horas * 20000;
