@@ -1,11 +1,11 @@
-/*Ejercicio 1
+/* Ejercicio 1
 
-const edadusuario=parseInt(prompt("¿Cuál es su edad?"));
-    if(edadusuario >=18){
+let edad=parseInt(prompt("¿Cuál es su edad?"));
+    if(edad >=18){
         alert("Eres mayor de edad");
 } else{
        alert("Eres menor de edad");
-}*/
+} */
 
 /* Ejercicio 2
 
@@ -58,29 +58,29 @@ let peso = parseFloat(prompt("Ingrese su peso en kilogramos:"));
 
 /* Ejercicio 6
 
-var numero = parseInt(prompt("Ingrese un número entre 1 y 7:"));
+let numero = parseInt(prompt("Ingrese un número entre 1 y 7:"));
 
     switch (numero) {
         case 1:
-    alert("Día 1 - lunes");
+    alert("Día 1 - Lunes");
     break;
         case 2:
-    alert("Día 2 - martes");
+    alert("Día 2 - Martes");
     break;
         case 3:
-    alert("Día 3 - miércoles");
+    alert("Día 3 - Miércoles");
     break;
         case 4:
-    alert("Día 4 - jueves");
+    alert("Día 4 - Jueves");
     break;
         case 5:
-    alert("Día 5 - viernes");
+    alert("Día 5 - Viernes");
     break;
         case 6:
-    alert("Día 6 - sábado");
+    alert("Día 6 - Sábado");
     break;
         case 7:
-    alert("Día 7 - domingo");
+    alert("Día 7 - Domingo");
     break;
   default:
     alert("ESCRIBIÓ UN NÚMERO FUERA DEL RANGO. ESCRIBA UN NÚMERO ENTRE 1 Y 7");
@@ -89,7 +89,7 @@ var numero = parseInt(prompt("Ingrese un número entre 1 y 7:"));
 
 /* Ejercicio 7
 
-var Total = parseFloat(prompt("Ingrese el precio total de su compra:"));
+let Total = parseFloat(prompt("Ingrese el precio total de su compra:"));
 
 var descuento;
     if (Total >= 1000) {
@@ -99,11 +99,11 @@ var descuento;
 }
 
 var pago = Total - descuento;
-alert("La cantidad a pagar es: " + pago.toFixed(2) + " pesos."); */
+alert("La cantidad a pagar es: " + pago.toFixed(2) + " pesos."); */ 
 
 /* Ejercicio 8
 
-var horas = parseInt(prompt("Ingrese el número de horas trabajadas:"));
+let horas = parseInt(prompt("Ingrese el número de horas trabajadas:"));
 
 var salario;
     if (horas <= 40) {
@@ -116,11 +116,11 @@ alert("Su salario semanal es de: " + salario.toFixed(2) + " pesos."); */
 
 /* Ejercicio 9
 
-var nombre1 = prompt("Escriba el nombre de la primera persona:");
-var edad1 = parseInt(prompt("Escriba la edad de la primera persona:"));
+let nombre1 = prompt("Escriba el nombre de la primera persona:");
+let edad1 = parseInt(prompt("Escriba la edad de la primera persona:"));
 
-var nombre2 = prompt("Escriba el nombre de la segunda persona:");
-var edad2 = parseInt(prompt("Escriba la edad de la segunda persona:"));
+let nombre2 = prompt("Escriba el nombre de la segunda persona:");
+let edad2 = parseInt(prompt("Escriba la edad de la segunda persona:"));
 
 var mayor;
 if (edad1 > edad2) {
@@ -135,8 +135,9 @@ alert("La persona mayor es: " + mayor); */
 
 /* Ejercicio 10
 
-var cantidadCamisas = parseInt(prompt("Ingrese la cantidad de camisas compradas:"));
-var precioCamisa = parseFloat(prompt("Ingrese el precio de cada camisa:"));
+let cantidadCamisas = parseInt(prompt("Ingrese la cantidad de camisas compradas:"));
+let precioCamisa = parseFloat(prompt("Ingrese el precio de cada camisa:"));
+
 var totalSinDescuento = cantidadCamisas * precioCamisa;
 
 var descuento;
@@ -148,12 +149,12 @@ var descuento;
 
 var totalConDescuento = totalSinDescuento - descuento;
 
-alert("El total a pagar por la compra de camisas es: " + totalConDescuento.toFixed(2) + " pesos."); */
+alert("El total a pagar por la compra de camisas es: " + totalConDescuento.toFixed(2) + " pesos."); */ 
 
 /* Ejercicio 11
 
-var numero1 = parseFloat(prompt("Escriba el primer número:"));
-var numero2 = parseFloat(prompt("Escriba el segundo número:"));
+let numero1 = parseFloat(prompt("Escriba el primer número:"));
+let numero2 = parseFloat(prompt("Escriba el segundo número:"));
 
 if (numero1 === numero2) {
   var resultado = numero1 * numero2;
@@ -168,20 +169,22 @@ if (numero1 === numero2) {
 
 /* Ejercico 12
 
-let opcion=prompt("1.suma 2.resta 3.division 4.multiplicacion");
+alert("Escoja una de las siguientes opciones: ")
+
+let opcion=prompt("1.Suma 2.Resta 3.Division 4.Multiplicacion");
 let numero1=prompt("Digite el primer número")
 let numero2=prompt("Digite el segundo número")
 
     if(opcion==1){
-        suma=parseInt(numero1)+parseInt(numero2)
-        alert("La suma es: "+suma);
+        Suma=parseInt(numero1)+parseInt(numero2)
+        alert("El resultado es: "+Suma);
     } else if(opcion==2){
-        resta=parseInt(numero1)-parseInt(numero2)
-        alert("La resta es: "+resta);
+        Resta=parseInt(numero1)-parseInt(numero2)
+        alert("El resultado es: "+Resta);
     } else if(opcion==3){
-        division=parseInt(numero1)/parseInt(numero2)
-        alert("La division es: "+division);
+        Division=parseInt(numero1)/parseInt(numero2)
+        alert("El resultado es: "+Division);
     } else {
-        multiplicacion=parseInt(numero1)*parseInt(numero2)
-        alert("La multiplicacion es: "+multiplicacion);
+        Multiplicacion=parseInt(numero1)*parseInt(numero2)
+        alert("El resultado es: "+Multiplicacion);
     } */
