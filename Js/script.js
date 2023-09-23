@@ -34,7 +34,7 @@ let num2=parseFloat(prompt("Escriba un número del 1 al 100"));
    alert ("El número " +num1+ " es igual que " +num2);
    } */
 
-/* Ejercicio 4
+// Ejercicio 4
 
 let numero1 = parseFloat(prompt("Ingrese el primer número:"));
 let numero2 = parseFloat(prompt("Ingrese el segundo número:"));
@@ -42,7 +42,7 @@ let numero2 = parseFloat(prompt("Ingrese el segundo número:"));
 var ascendentes = [numero1, numero2].sort(function(a, b) {
  return a - b;
 });
-alert ("Los números en forma ascendente son: " + ascendentes.join(", ")); */
+alert ("Los números en forma ascendente son: " + ascendentes.join(", ")); 
 
 /* Ejercicio 5
 
