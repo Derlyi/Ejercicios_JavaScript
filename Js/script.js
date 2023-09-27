@@ -188,3 +188,34 @@ let numero2=prompt("Digite el segundo número")
         Multiplicacion=parseInt(numero1)*parseInt(numero2)
         alert("El resultado es: "+Multiplicacion);
     } */
+
+/*Ejercicio demás
+
+    let numero=parseFloat(prompt("Digite un numero"));
+    
+    function par_impar(numero){
+    if (numero % 2===0){
+      return "Par"
+    } else{
+      return "Impar"
+    }
+  }
+    var resultado=par_impar(numero);
+      alert("El número digitado es: " +resultado);*/
+
+/* Otro ejercicio
+
+      alert("Escoja una de las siguientes opciones: ")
+
+let opcion=prompt("1.triangulo 2.cuadrado");
+
+    if(opcion==1){
+      let base=parseFloat(prompt("Digite el valor de la base del triangulo"));
+      let altura=parseFloat(prompt("Digite el valor de la altura del triangulo"));
+        triangulo=base*altura/2;
+        alert("El resultado es: "+triangulo);
+    } else {
+      let lado=parseFloat(prompt("Digite el valor del lado del cuadrado"));
+        cuadrado=parseInt(lado)*parseInt(lado)
+        alert("El resultado es: "+cuadrado);
+    } */
